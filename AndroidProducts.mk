@@ -17,4 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_bomb.mk
+    $(LOCAL_DIR)/pb_bomb.mk
+
+COMMON_LUNCH_CHOICES := \
+    pb_bomb-eng
