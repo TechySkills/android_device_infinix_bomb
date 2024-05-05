@@ -24,7 +24,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := bomb
-PRODUCT_NAME := twrp_bomb
+PRODUCT_NAME := pb_bomb
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := bomb
 PRODUCT_MANUFACTURER := infinix
