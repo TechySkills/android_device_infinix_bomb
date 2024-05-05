@@ -10,7 +10,7 @@
 - Let me know if you find anything
 
 ### Specifications
-- See https://m.gsmarena.com/infinix_note_7-10175.php
+- See [Infinix Note 7 (bomb)](https://www.gsmarena.com/infinix_note_7-10175.php)
 
 ### Credits
 - @mastersenpai05 for Infinix Zero 8 tree
