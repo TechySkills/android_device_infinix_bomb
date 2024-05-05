@@ -1,7 +1,7 @@
 #
-# Copyright (C) 2020 The Android Open Source Project
-# Copyright (C) 2020 The TWRP Open Source Project
-# Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 The TWRP Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X690B
-PRODUCT_NAME := twrp_X690B
+PRODUCT_DEVICE := bomb
+PRODUCT_NAME := twrp_bomb
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := X690B
+PRODUCT_MODEL := bomb
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_SHIPPING_API_LEVEL := 29
