@@ -92,7 +92,7 @@
         <version>29</version>
     </vendor-ndk>
     <system-sdk>
-        <version>29</version>
+        <version>28</version>
         <version>29</version>
     </system-sdk>
 </manifest>
