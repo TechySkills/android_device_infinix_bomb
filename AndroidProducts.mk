@@ -17,7 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ofrp_bomb.mk
+    $(LOCAL_DIR)/twrp_lion.mk
 
 COMMON_LUNCH_CHOICES := \
-    ofrp_bomb-eng
+    twrp_lion-user \
+    twrp_lion-userdebug \
+    twrp_lion-eng
