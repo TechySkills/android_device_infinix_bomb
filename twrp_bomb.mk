@@ -20,13 +20,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/ofrp/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := bomb
 PRODUCT_NAME := ofrp_bomb
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := bomb
+PRODUCT_MODEL := Infinix Note 7
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_SHIPPING_API_LEVEL := 29
