@@ -24,7 +24,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := bomb
-PRODUCT_NAME := ofrp_bomb
+PRODUCT_NAME := twrp_bomb
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Note 7
 PRODUCT_MANUFACTURER := infinix
