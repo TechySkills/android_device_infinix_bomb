@@ -20,4 +20,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_bomb.mk
 
 COMMON_LUNCH_CHOICES := \
+    twrp_bomb-user \
+    twrp_bomb-userdebug \
     twrp_bomb-eng
