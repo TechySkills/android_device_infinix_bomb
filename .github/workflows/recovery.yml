@@ -12,7 +12,7 @@ env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   MANIFEST_BRANCH: twrp-11
   DEVICE: bomb
-  DT_LINK: https://github.com/TechySkills/twrp_infinix_bomb
+  DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb/
   DT_PATH: device/infinix/bomb
   TARGET: recoveryimage
   TZ: Yekaterinburg, Islamabad
