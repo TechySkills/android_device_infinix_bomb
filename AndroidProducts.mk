@@ -20,4 +20,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pb_bomb.mk
 
 COMMON_LUNCH_CHOICES := \
+    pb_bomb-user \
+    pb_bomb-userdebug \
     pb_bomb-eng
