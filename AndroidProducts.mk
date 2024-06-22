@@ -23,3 +23,8 @@ COMMON_LUNCH_CHOICES := \
     twrp_bomb-user \
     twrp_bomb-userdebug \
     twrp_bomb-eng
+
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    mkfs.ext4
