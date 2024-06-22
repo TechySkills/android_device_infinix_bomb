@@ -15,11 +15,11 @@ env:
   DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb/
   DT_PATH: device/infinix/bomb
   TARGET: recoveryimage
-  TZ: Yekaterinburg, Islamabad
+  TZ: PAKST-5
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-24.04
     steps:
     - name: Checkout
       uses: actions/checkout@master
