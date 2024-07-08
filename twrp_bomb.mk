@@ -37,9 +37,3 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock
-
-# EXT4 and F2FS
-PRODUCT_PACKAGES += \
-    mkfs.f2fs \
-    fsck.f2fs \
-    mkfs.ext4
