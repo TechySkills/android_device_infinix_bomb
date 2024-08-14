@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/bomb
+DEVICE_PATH := device/infinix/X690B
 
 # Architecture
 TARGET_ARCH := arm64
@@ -71,7 +71,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := bomb
+TARGET_OTA_ASSERT_DEVICE := Infinix-X690B
 
 # Partition
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -122,16 +122,16 @@ TW_OVERRIDE_SYSTEM_PROPS := \
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
+TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 255
-TW_EXCLUDE_DEFAULT_USB_INIT := true
-TW_EXCLUDE_LPTOOLS := true
-TW_EXCLUDE_LPDUMP := true
-TW_EXCLUDE_BASH := true
-TW_EXCLUDE_NANO := true
+TW_EXCLUDE_DEFAULT_USB_INIT := false
+TW_EXCLUDE_LPTOOLS := false
+TW_EXCLUDE_LPDUMP := false
+TW_EXCLUDE_BASH := false
+TW_EXCLUDE_NANO := false
 RECOVERY_SDCARD_ON_DATA := true
 TW_INCLUDE_NTFS_3G := true
 TW_Y_OFFSET := 60
