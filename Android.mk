@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), bomb)
+ifeq ($(TARGET_DEVICE), X690B)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
