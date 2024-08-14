@@ -10,6 +10,7 @@ on fs
 
 on boot
     start health-hal-2-0
+    setprop ro.product.device X690B
 
 service keystore_auth /system/bin/keystore_auth
     oneshot
