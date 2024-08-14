@@ -12,7 +12,7 @@ env:
   MANIFEST: https://gitlab.com/OrangeFox/sync.git
   MANIFEST_BRANCH: fox_11.0
   DEVICE: X690B
-  DT_LINK: https://github.com/TechySkills/device_infinix_x690b-twrp/tree/ofrp-10.0
+  DT_LINK: https://github.com/TechySkills/device_infinix_x690b-twrp
   DT_PATH: device/infinix/X690B
   TARGET: recoveryimage
   TZ: Asia/Karachi
