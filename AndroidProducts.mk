@@ -17,9 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pb_bomb.mk
+    $(LOCAL_DIR)/pb_X690B.mk
 
 COMMON_LUNCH_CHOICES := \
-    pb_bomb-user \
-    pb_bomb-userdebug \
-    pb_bomb-eng
+    pb_X690B-user \
+    pb_X690B-userdebug \
+    pb_X690B-eng
