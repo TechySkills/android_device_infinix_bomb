@@ -43,7 +43,7 @@ if [ "$1" = "$FDEVICE" ] || [  "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		export FOX_BUILD_TYPE="Stable"
 
 		# Device info
-		export TARGET_DEVICE_ALT="X690B,X690,x690b,x690"
+		export TARGET_DEVICE_ALT="Infinix-X690,Infinix-X690B,generic"
 
 		# Display / Leds
 		export OF_SCREEN_H="2400"
