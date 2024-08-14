@@ -9,7 +9,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   MANIFEST_BRANCH: twrp-11
   DEVICE: X690B
   DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb/tree/twrp-10.0
