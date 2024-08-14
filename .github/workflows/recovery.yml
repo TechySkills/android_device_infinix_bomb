@@ -9,17 +9,17 @@ on:
     types: [started]
 
 env:
-  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
-  MANIFEST_BRANCH: twrp-11
-  DEVICE: bomb
-  DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb/
-  DT_PATH: device/infinix/bomb
+  MANIFEST: https://gitlab.com/OrangeFox/sync.git
+  MANIFEST_BRANCH: fox_11.0
+  DEVICE: X690B
+  DT_LINK: https://github.com/TechySkills/device_infinix_x690b-twrp/tree/ofrp-10.0
+  DT_PATH: device/infinix/X690B
   TARGET: recoveryimage
-  TZ: Yekaterinburg, Islamabad
+  TZ: Asia/Karachi
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-24.04
     steps:
     - name: Checkout
       uses: actions/checkout@master
