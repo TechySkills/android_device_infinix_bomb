@@ -12,7 +12,7 @@ env:
   MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb.git
   MANIFEST_BRANCH: android-11.0
   DEVICE: X690B
-  DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb
+  DT_LINK: https://github.com/TechySkills/device_infinix_x690b-twrp
   DT_PATH: device/infinix/X690B
   TARGET: recoveryimage
   TZ: Asia/Karachi
