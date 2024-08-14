@@ -11,11 +11,11 @@ on:
 env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   MANIFEST_BRANCH: twrp-11
-  DEVICE: bomb
-  DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb/
-  DT_PATH: device/infinix/bomb
+  DEVICE: X690B
+  DT_LINK: https://github.com/TechySkills/android_device_infinix_bomb/tree/twrp-10.0
+  DT_PATH: device/infinix/X690B
   TARGET: recoveryimage
-  TZ: PAKST-5
+  TZ: Asia/Karachi
 
 jobs:
   build:
